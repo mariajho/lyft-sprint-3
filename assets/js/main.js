@@ -1,4 +1,4 @@
-function Snake(){
+/*function Snake(){
 	this.x = x;
 	this.y = y;
 	}
@@ -37,9 +37,9 @@ for(var i = 0; i<tablero.length; i++){
     fila.appendChild(casilla);
   }
   divTablero.appendChild(fila);
-}
+}*/
 
-var teclado = {
+/*var teclado = {
     Up:38,
     Down:40,
     Left:37,
@@ -51,3 +51,22 @@ function dibujarTeclado(evento)
 {
     console.log(evento.keyCode);
 }
+
+function KeyPressed() {
+    if (keyCode === UP_ARROW) {
+        s.dir(0,-1);
+    }else if (KeyCode === DOWN_ARROW) {
+        s.dir(0,1);
+    }else if (KeyCode === RIGHT_ARROW) {
+        s.dir(1,0);
+    }else is (KeyCode === LEFT_ARROW) {
+        s.dir(-1,0);
+    }
+}*/
+
+window.onload=function(){document.onkeydown=desplazar};
+    function desplazar(objeto){
+    var tecla = objeto.which;
+    var x= document.getElementsByClassName("cor1").value;
+    var y = document.getElementsByClassName("cor2").value;
+}        
